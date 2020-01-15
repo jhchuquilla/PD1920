@@ -11,7 +11,7 @@ public class Servidor1Application extends Application{
 	@Override
 	public Set<Class<?>> getClasses() {
 		// TODO Auto-generated method stub
-		return Set.of(ServicioSingerRest.class);
+		return Set.of(ServicioSingerRest.class, ServiciosAlbumRest.class);
 	}
 	
 }
